@@ -1,4 +1,4 @@
-const age = 17
+let age = 17
 
 if ( age >= 18) {
     const result = 'Вы совершеннолетний'

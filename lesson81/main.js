@@ -8,6 +8,6 @@ for(let i = 0; i < numbers.length; i++) {
 
 const rainbow = ['red', 'orange', 'yellow', 'green', 'light blue', 'blue', 'purple']
 
-for(let a = rainbow.lenght - 1; a != -1; a--) {
+for(let a = rainbow.lenght; a != 1; a--) {
     console.log(rainbow[a])
 }

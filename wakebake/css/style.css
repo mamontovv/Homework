@@ -44,7 +44,7 @@
 }
 
 .header {
-    background: url("/img/decor/bg-header.png") 0 0 / cover no-repeat;
+    background: url("img/decor/bg-header.png") 0 0 / cover no-repeat;
     background-position: center center;
     /* padding-bottom: 140px; */
 }

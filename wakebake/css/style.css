@@ -409,19 +409,32 @@
         visibility: visible;
     }
 
-    /* .body--opened-menu .burger-icon span::after {
+    .body--opened-menu .burger-icon {
+        z-index: 13;
+    }
+
+    .body--opened-menu .burger-icon span {
         left: 0;
         top: 0;
         z-index: 12;
         transform: rotateZ(45deg);
+        transition: all .5s;
+    }
+
+    .body--opened-menu .burger-icon span::after {
+        display: none;
+    }
+
+    .body--opened-menu .burger-icon span {
+        opacity: 1;
     }
 
     .body--opened-menu .burger-icon span::before {
         left: 0;
         top: 0;
         z-index: 12;
-        transform: rotateZ(-45deg);
-    } */
+        transform: rotateZ(90deg);
+    }
 
 
     .menu {

@@ -77,11 +77,17 @@
                 </section>
             </div>
         </header>
-        <!-- <section class="aboutUs">
+                <section class="aboutUs">
             <div class="container">
                 <div class="aboutUs-wrapper">
                     <div class="aboutUs-img">
-                        <img src="img/content/girl-2.jpg" alt="">
+                        <img src="/img/content/girl-2.jpg" alt="">
+                        <div class="aboutUs-img__control">
+                            <a class="aboutUs-img__button">
+                                <img src="img/icons/gift.svg" alt="">
+                            </a>
+                            Нажми на подарок, чтобы получить наш фирменный рецепт
+                        </div>
                     </div>
                     <div class="aboutUs-text">
                         <h1 class="aboutUs-title">
@@ -98,7 +104,7 @@
                         <div class="aboutUs-features">
                             <div class="features-block">
                                 <div class="features-icon">
-                                    <img class="features-icon__img" src="img/icons/hat-1.svg" alt="шляпа">
+                                    <img class="features-icon__img" src="/img/icons/hat-1.svg" alt="шляпа">
                                 </div>
                                 <div class="features-text">
                                     Живое общение с наставниками и одногруппниками
@@ -106,7 +112,7 @@
                             </div>
                             <div class="features-block">
                                 <div class="features-icon">
-                                    <img class="features-icon__img" src="img/icons/hat-1.svg" alt="шляпа">
+                                    <img class="features-icon__img" src="/img/icons/hat-1.svg" alt="шляпа">
                                 </div>
                                 <div class="features-text">
                                     Предоставление всех необходимых материалов
@@ -114,7 +120,7 @@
                             </div>
                             <div class="features-block">
                                 <div class="features-icon">
-                                    <img class="features-icon__img" src="img/icons/hat-1.svg" alt="шляпа">
+                                    <img class="features-icon__img" src="/img/icons/hat-1.svg" alt="шляпа">
                                 </div>
                                 <div class="features-text">
                                     Небольшие группы до 6 человек
@@ -122,17 +128,23 @@
                             </div>
                             <div class="features-block">
                                 <div class="features-icon">
-                                    <img class="features-icon__img" src="img/icons/hat-1.svg" alt="шляпа">
+                                    <img class="features-icon__img" src="/img/icons/hat-1.svg" alt="шляпа">
                                 </div>
                                 <div class="features-text">
                                     Большие аудитории для обучения
                                 </div>
                             </div>
+                            <div class="aboutUs-control__mobile">
+                                <a class="aboutUs-img__button">
+                                    <img src="img/icons/gift.svg" alt="">
+                                </a>
+                                Нажми на подарок, чтобы получить наш фирменный рецепт
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <footer class="footer">
             <div class="container">
                 <div class="footer-inner">
@@ -230,6 +242,34 @@
                 </div>
             </div>
         </footer>
+    </div>
+    <div class="modal">
+        <div class="modal-window">
+            <a class="modal-cancel">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.75781 17.2433L12.0008 12.0003L17.2438 17.2433M17.2438 6.75732L11.9998 12.0003L6.75781 6.75732"
+                        stroke="#E1D9E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <rect x="0.75" y="0.75" width="22.5" height="22.5" rx="11.25" stroke="#E1D9E1" stroke-width="1.5" />
+                </svg>
+            </a>
+            <img src="img/decor/cupcakes-modal.png" alt="#" class="modal-img">
+            <h3 class="modal-title">
+                Удиви своих близких вкусными капкейками
+            </h3>
+            <p class="modal-text">
+                Оставь свой e-mail, и мы вышлем рецепт на почту
+            </p>
+            <form class="modal-form">
+                <label class="modal-form__label">
+                    <input placeholder="E-mail" type="email" class="modal-form__input">
+                    <span>Введите e-mail</span>
+                </label>
+                <button class="button">
+                    Получить подарок
+                </button>
+            </form>
+        </div>
     </div>
     <script src="js/fslightbox.js"></script>
     <script src="js/main.js"></script>

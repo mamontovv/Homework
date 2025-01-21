@@ -4,6 +4,9 @@ const nav1 = document.querySelector('.menu-link_1')
 const nav2 = document.querySelector('.menu-link_2')
 const nav3 = document.querySelector('.menu-link_3')
 const nav4 = document.querySelector('.menu-link_4')
+const btn = document.querySelector('.aboutUs-img__button')
+const cancel = document.querySelector('.modal-cancel')
+const btnmob = document.querySelector('.aboutUs-control__mobile')
 
 button.addEventListener('click', () => {
     body.classList.toggle('body--opened-menu')
@@ -23,5 +26,17 @@ nav3.addEventListener('click', () => {
 
 nav4.addEventListener('click', () => {
     body.classList.remove('body--opened-menu')
+})
+
+btn.addEventListener('click', () => {
+    body.classList.add('body--opened-modal')
+})
+
+btnmob.addEventListener('click', () => {
+    body.classList.add('body--opened-modal')
+})
+
+cancel.addEventListener('click', () => {
+    body.classList.remove('body--opened-modal')
 })
 

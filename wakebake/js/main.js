@@ -201,3 +201,35 @@ dopop8.addEventListener('click', () => {
     dopop8.classList.remove('tab8--opened')
 })
 
+const swiper = new Swiper('.gallery__swiper', {
+
+    slidesPerView: 1,
+    spaceBetween: 32,
+
+    pagination: {
+        el: '.gallery__pagination',
+        type: "fraction",
+    },
+    navigation: {
+        nextEl: '.gallery__next',
+        prevEl: '.gallery__prev',
+    },
+
+    breakpoints: {
+
+        550: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+
+        800: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+
+        1101: {
+            slidesPerView: 4,
+        }
+    }
+
+})

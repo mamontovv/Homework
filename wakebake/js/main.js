@@ -210,6 +210,7 @@ const swiper = new Swiper('.gallery__swiper', {
         el: '.gallery__pagination',
         type: "fraction",
     },
+
     navigation: {
         nextEl: '.gallery__next',
         prevEl: '.gallery__prev',
@@ -233,3 +234,39 @@ const swiper = new Swiper('.gallery__swiper', {
     }
 
 })
+
+
+const swiper2 = new Swiper('.feedback__swiper', {
+
+    slidesPerView: 1,
+    spaceBetween: 0,
+    centeredSlides: true,
+
+    pagination: {
+      el: '.feedback__pagination',
+      type: "fraction",
+    },
+  
+
+    navigation: {
+      nextEl: '.feedback__next',
+      prevEl: '.feedback__prev',
+    },
+  
+    
+    scrollbar: {
+      el: '.swiper-scrollbar', 
+      draggable: true,
+      hide: false,
+      dragSize: 132,
+    },
+
+    breakpoints: {
+        901: {
+            slidesPerView: 1.5,
+        },
+        1241: {
+            slidesPerView: 2,
+        }
+    }
+  })

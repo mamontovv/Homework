@@ -1626,10 +1626,17 @@
     margin-left: 104px;
 }
 
+.footer__check {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
 
 
-
-
+.footer__form .button {
+    margin-top: 20px;
+    width: 100%;
+}
 
 
 
